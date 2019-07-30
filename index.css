@@ -1,0 +1,145 @@
+body{
+background:#222;
+color:#fff;
+font-family:sans-serif;
+margin:0;
+padding: 0;
+
+}
+.main{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#282C34;
+color:#fff;
+width:1100px;
+height:600px;
+border-radius:3px;
+border:1px solid #282C34;
+
+}
+.logo{
+	background-image: url("..jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100px;
+	height: 100px;
+	margin-left: 0px;
+	transition: 1s;
+}
+.title{
+	width:995px;
+	height: 45px;
+	color: #5689F2;
+	float: right;
+	margin-top: -100px;
+	text-align: center;
+	border-bottom: 1px solid #40444B;
+	transition: 1s;
+
+}
+.title > h3{
+	margin-top: -1px;
+}
+.title:hover{
+	font-size: 25px;
+1
+}
+.menu{
+	width: 995px;
+	height: 50px;
+	float: right;
+	margin-top: -51px;
+	text-align: center;
+}
+.menu-pers{
+	float: left;
+	margin-left: 10px;
+	line-height: 50px;
+	color: #5689F2;
+	border-left: 2px solid #cc181e;
+	width: 310px;
+	text-align: center;
+	transition: 1s;
+	display: block;
+	cursor: pointer;
+}
+.menu-pers:hover{
+	background: #4A4D54;
+	color: #fff;
+	width: 330px;
+	font-size: 16px;
+}
+
+.home-page{
+	
+	border-top:1px solid #40444B;
+	width: 850px;
+	height: 500px;
+}
+.right-area{
+
+	float: right;
+	margin-top: -501px;
+	width: 250px;
+	height: 500px;
+	border-left:1px solid #40444B;
+	border-top:1px solid #40444B;
+}
+.element{
+	border:1px solid #5689F2;
+	width: 500px;
+	height: 100px;
+	border-radius:15px;
+	margin:10px;
+	margin-top: 50px;
+}
+.element-title{
+	color:#5689F2;
+	border-bottom:1px solid #cc181e;
+	margin-left: 30px;
+	margin-top: 5px;
+
+}
+.element-info{
+	margin-left: 60px;
+	font-size: 15px;
+
+}
+.element-button{
+	background: #41454C;
+	border:none;
+	color: #fff;
+	border-bottom: 1px solid #cc181e;
+	width: 100px;
+	height: 30px;
+	float: right;
+	margin-top: -10px;
+	margin-right: 5px;
+	cursor: pointer;
+	
+}
+.element-button:hover{
+font-size: 15px;
+}
+.view{
+	border:1px solid #40444B;
+	width: 310px;
+	height: 465px;
+	float: right;
+	margin-top: -450px;
+	margin-right: 10px;
+	border-radius: 10px;
+
+}
+.view-title{
+	text-align: center;
+	border-bottom:1px solid #cc181e; 
+	width: auto;
+	color:#5689F2;
+}
+.view-info{
+text-align: center;
+}
